@@ -16,8 +16,8 @@ class logs {
         OracleDataSource ods = new OracleDataSource();
 
         ods.setURL("jdbc:oracle:thin:@h3oracle.ad.psu.edu:1521/orclpdb.ad.psu.edu");
-        ods.setUser("hdn5047");
-        ods.setPassword("Altina1202");
+        ods.setUser("");
+        ods.setPassword("");
 
 //        char[] password = System.console().readPassword("Password: ");
 //        ods.setPassword(String.valueOf(password));
